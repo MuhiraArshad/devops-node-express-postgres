@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "muhira",
+    "password": "muhira123",
+    "database": "node_api",
+    "host": "db",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "muhira123",
+    "database": "database_test",
+    "host": "db",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "muhira123",
+    "database": "database_production",
+    "host": "db",
+    "dialect": "postgres"
+  }
+}
