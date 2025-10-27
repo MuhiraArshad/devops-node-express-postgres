@@ -1,8 +1,7 @@
-{
-  "development": {
+{  "development": {
     "username": "muhira",
     "password": "muhira123",
-    "database": "node_api",
+    "database": "muhira",
     "host": "db",
     "dialect": "postgres"
   },
@@ -13,10 +12,10 @@
     "host": "db",
     "dialect": "postgres"
   },
-  "production": {
-    "username": "postgres",
+   "production": {
+    "username": "muhira",
     "password": "muhira123",
-    "database": "database_production",
+    "database": "muhira",
     "host": "db",
     "dialect": "postgres"
   }

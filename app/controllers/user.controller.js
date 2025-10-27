@@ -39,9 +39,7 @@ exports.update = async (req, res) => {
     const { name, email } = req.body;
     const [updated] = await User.update(
       { name, email },
-      {
-        where: { id: req.params.id }
-      }
+      { where: { id: req.params.id } }
     );
     if (!updated) return res.status(404).json({ message: "User not found" });
     const updatedUser = await User.findByPk(req.params.id);

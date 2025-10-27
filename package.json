@@ -1,13 +1,15 @@
 {
   "name": "express-sequelize-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js Express + PostgreSQL + Sequelize API (used for DevOps project)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express", "sequelize", "postgresql", "api", "docker", "devops"],
+  "author": "muhira",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
