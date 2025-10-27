@@ -79,7 +79,7 @@ app (Node.js)
 
 Depends on db health
 
-Ports: 8080:3000
+Ports: 3000:3000
 
 Log volume: ./logs:/app/logs
 
